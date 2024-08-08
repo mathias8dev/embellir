@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -31,8 +30,7 @@ class MainActivity : ComponentActivity() {
             EmbellirTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(
-                        modifier = Modifier.padding(0.dp)
-                            .offset(y = (-20).dp)
+                        modifier = Modifier.padding(innerPadding)
                     ) {
                         EmbellirTestScreen()
                     }
