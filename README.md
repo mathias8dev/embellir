@@ -1,4 +1,4 @@
-### kotlin-yup
+### Embellir
 > embellir is a jetpack compose library that help to extract colors on any components and apply it to another one. It is a simple way to make your app more beautiful and consistent.
 > For instance, with embellir, you can reproduce Youtube video player color diffusion effect
 
