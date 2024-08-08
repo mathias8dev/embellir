@@ -61,3 +61,18 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+
+configure<PublishingExtension> {
+    this.publications {
+        register<MavenPublication>("release") {
+            groupId = "com.mathias8dev"
+            artifactId = "embellir"
+            version = "1.0.2"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
