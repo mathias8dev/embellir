@@ -75,7 +75,12 @@ dependencies {
     The best way to learn how to use Embellir is to look at the code in this repo I use to reproduce the Youtube video player color diffusion effect. <br>
 </p>
 
-#### Youtube video player color diffusion effect
+##### Youtube video player color diffusion effect
+
+
+
+https://github.com/user-attachments/assets/906ab075-21c7-4cd4-8c37-8cc2851c84c1
+
 
 
 
